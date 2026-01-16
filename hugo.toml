@@ -1,18 +1,28 @@
 baseURL = 'https://future-pulse.tech/'
 languageCode = 'de-DE'
-title = 'Future Pulse Tech'
+title = 'Future Pulse Tech - KI-Kompetenz & Future Skills'
 theme = 'PaperMod'
+enableRobotsTXT = true
+enableGitInfo = true
 
 [params]
   author = 'Oliver Laudan'
-  description = 'Future Skills, KI-Kompetenz & Digitale Transformation'
-  keywords = ['Future Skills', 'KI', 'Digitalisierung', 'AI Literacy']
+  description = 'Future Pulse Tech: Dein Guide für KI-Kompetenz, Future Skills und digitale Transformation. Lerne, wie du KI souverän im Alltag einsetzt.'
+  keywords = ['Future Skills', 'KI', 'Digitalisierung', 'AI Literacy', 'Künstliche Intelligenz', 'ChatGPT', 'Digitale Transformation', 'Prompt Engineering']
   images = ['/images/og-image.png']
+  
+  # SEO Settings
+  [params.SEO]
+    defaultImage = '/images/og-image.png'
+    author = 'Oliver Laudan'
+    twitterCard = 'summary_large_image'
   
   # Social Links
   [params.social]
     linkedin = 'https://linkedin.com/in/oliver-laudan'
     github = 'https://github.com/oliverlaudan-ops'
+    email = 'mailto:kontakt@future-pulse.tech'
+    rss = '/index.xml'
   
   # Blog Settings
   ShowReadingTime = true
@@ -23,9 +33,26 @@ theme = 'PaperMod'
   ShowWordCount = true
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
+  disableSpecial1stPost = false
   
   # Homepage Settings
-  homeInfoParams = { Title = 'Future Pulse Tech', Content = 'Dein Guide für Future Skills, KI-Kompetenz und digitale Transformation. Entdecke, wie du mit intelligenten Technologien souverän umgehst.' }
+  [params.homeInfoParams]
+    Title = '🚀 Future Pulse Tech'
+    Content = '''
+Dein Guide für **KI-Kompetenz** und **Future Skills**. 
+
+Entdecke, wie du mit intelligenten Technologien souverän umgehst und die digitale Transformation aktiv gestaltest.
+    '''
+
+  # Profile Mode (optional - for personal branding)
+  [params.profileMode]
+    enabled = false
+    title = 'Oliver Laudan'
+    subtitle = 'KI-Experte & Future Skills Coach'
+    imageUrl = '/images/profile.jpg'
+    imageTitle = 'Oliver Laudan'
+    imageWidth = 180
+    imageHeight = 180
 
 [menu]
   [[menu.main]]
@@ -38,6 +65,11 @@ theme = 'PaperMod'
     name = 'Über uns'
     url = '/about/'
     weight = 20
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Themen'
+    url = '/tags/'
+    weight = 30
 
 [markup]
   [markup.highlight]
@@ -47,3 +79,16 @@ theme = 'PaperMod'
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
+
+# Privacy Settings
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Taxonomies
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'

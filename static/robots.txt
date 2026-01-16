@@ -1,0 +1,25 @@
+# robots.txt für future-pulse.tech
+# Erstellt am 2026-01-16
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://future-pulse.tech/sitemap.xml
+
+# Crawl-Delay für aggressive Bots
+User-agent: Baiduspider
+Crawl-delay: 5
+
+User-agent: Yandex
+Crawl-delay: 5
+
+# Blockiere bekannte Bad Bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
