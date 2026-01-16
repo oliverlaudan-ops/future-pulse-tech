@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT 2026: Die wichtigsten Features und Updates"
-date: 2026-01-17
+date: 2026-01-16
 draft: false
 description: "Entdecke die neuesten ChatGPT Features 2026: Gruppenchats, Super-Assistent-Modus, verbesserte Prompts und mehr. Praktische Tipps für produktiveres Arbeiten mit KI."
 summary: "ChatGPT entwickelt sich vom Chatbot zum proaktiven KI-Assistenten. Diese Features solltest du 2026 kennen."
