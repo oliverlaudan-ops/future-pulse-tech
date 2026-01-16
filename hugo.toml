@@ -1,0 +1,49 @@
+baseURL = 'https://future-pulse.tech/'
+languageCode = 'de-DE'
+title = 'Future Pulse Tech'
+theme = 'PaperMod'
+
+[params]
+  author = 'Oliver Laudan'
+  description = 'Future Skills, KI-Kompetenz & Digitale Transformation'
+  keywords = ['Future Skills', 'KI', 'Digitalisierung', 'AI Literacy']
+  images = ['/images/og-image.png']
+  
+  # Social Links
+  [params.social]
+    linkedin = 'https://linkedin.com/in/oliver-laudan'
+    github = 'https://github.com/oliverlaudan-ops'
+  
+  # Blog Settings
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  
+  # Homepage Settings
+  homeInfoParams = { Title = 'Future Pulse Tech', Content = 'Dein Guide für Future Skills, KI-Kompetenz und digitale Transformation. Entdecke, wie du mit intelligenten Technologien souverän umgehst.' }
+
+[menu]
+  [[menu.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    url = '/blog/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'about'
+    name = 'Über uns'
+    url = '/about/'
+    weight = 20
+
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
