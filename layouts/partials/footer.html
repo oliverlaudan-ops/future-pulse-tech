@@ -1,0 +1,107 @@
+<!-- KI-Disclaimer Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-disclaimer">
+                <p class="ai-disclaimer">
+                    <strong>🤖 KI-generierte Inhalte:</strong> Ein wesentlicher Teil der Inhalte auf dieser Website wurde mithilfe von künstlicher Intelligenz erstellt. Alle Artikel werden redaktionell geprüft und kuratiert, um Qualität und Richtigkeit zu gewährleisten.
+                </p>
+            </div>
+            <div class="footer-links">
+                <nav>
+                    <a href="/impressum/">Impressum</a> | 
+                    <a href="/datenschutz/">Datenschutz</a>
+                </nav>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; {{ now.Format "2006" }} Future Pulse Tech. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+.site-footer {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    border-top: 3px solid #2196F3;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-disclaimer {
+    background-color: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #2196F3;
+}
+
+.ai-disclaimer {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #b0b0b0;
+}
+
+.ai-disclaimer strong {
+    color: #2196F3;
+    font-weight: 600;
+}
+
+.footer-links {
+    margin: 1.5rem 0;
+}
+
+.footer-links nav {
+    font-size: 0.9rem;
+}
+
+.footer-links a {
+    color: #2196F3;
+    text-decoration: none;
+    padding: 0 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #64B5F6;
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    font-size: 0.85rem;
+    color: #808080;
+    margin-top: 1rem;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .site-footer {
+        padding: 1.5rem 1rem;
+    }
+    
+    .footer-disclaimer {
+        padding: 1rem;
+    }
+    
+    .ai-disclaimer {
+        font-size: 0.85rem;
+    }
+    
+    .footer-links nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+</style>
