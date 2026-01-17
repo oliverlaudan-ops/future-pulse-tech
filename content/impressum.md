@@ -7,19 +7,17 @@ layout: "page"
 ## Angaben gemäß § 5 TMG
 
 **Future Pulse Tech**  
-[Ihr vollständiger Name oder Firmenname]  
-[Straße und Hausnummer]  
-[PLZ und Ort]  
+Oliver Laudan  
+Annenstr. 76  
 
 ## Kontakt
 
-**E-Mail:** [ihre-email@future-pulse.tech]  
-**Telefon:** [Ihre Telefonnummer (optional)]  
+**E-Mail:** oliver.laudan@gmail.com  
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-[Ihr vollständiger Name]  
-[Adresse wie oben]  
+Oliver Laudan  
+Annenstr. 76  
 
 ## Haftungsausschluss
 

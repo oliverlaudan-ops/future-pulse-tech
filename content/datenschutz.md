@@ -63,11 +63,10 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Komm
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-[Ihr vollständiger Name oder Firmenname]  
-[Straße und Hausnummer]  
-[PLZ und Ort]  
+Oliver Laudan  
+Annenstr. 76  
 
-E-Mail: [ihre-email@future-pulse.tech]
+E-Mail: oliver.laudan@gmail.com
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
 
