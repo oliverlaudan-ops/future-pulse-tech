@@ -1,7 +1,10 @@
 ---
 title: "Impressum"
 date: 2026-01-18
-layout: "page"
+url: "/impressum/"
+showtoc: false
+hidemeta: true
+comments: false
 ---
 
 ## Angaben gemäß § 5 TMG

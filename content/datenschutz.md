@@ -1,7 +1,10 @@
 ---
 title: "Datenschutzerklärung"
 date: 2026-01-18
-layout: "page"
+url: "/datenschutz/"
+showtoc: false
+hidemeta: true
+comments: false
 ---
 
 ## 1. Datenschutz auf einen Blick
