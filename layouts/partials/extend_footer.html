@@ -1,0 +1,110 @@
+<!-- KI-Disclaimer Footer -->
+<footer class="ai-footer">
+    <div class="footer-container">
+        <div class="footer-disclaimer">
+            <p class="ai-disclaimer">
+                <strong>🤖 KI-generierte Inhalte:</strong> Ein wesentlicher Teil der Inhalte auf dieser Website wurde mithilfe von künstlicher Intelligenz erstellt. Alle Artikel werden redaktionell geprüft und kuratiert, um Qualität und Richtigkeit zu gewährleisten.
+            </p>
+        </div>
+        <div class="footer-links">
+            <nav>
+                <a href="/impressum/">Impressum</a> · 
+                <a href="/datenschutz/">Datenschutz</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<style>
+.ai-footer {
+    background-color: var(--theme, #1a1a1a);
+    color: var(--primary, #e0e0e0);
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    border-top: 2px solid var(--border, #2196F3);
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-disclaimer {
+    background-color: rgba(33, 150, 243, 0.1);
+    padding: 1.25rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #2196F3;
+}
+
+.ai-disclaimer {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--secondary, #b0b0b0);
+}
+
+.ai-disclaimer strong {
+    color: #2196F3;
+    font-weight: 600;
+}
+
+.footer-links {
+    margin: 1rem 0;
+    font-size: 0.85rem;
+}
+
+.footer-links nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #2196F3;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #64B5F6;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .ai-footer {
+        padding: 1.5rem 1rem;
+    }
+    
+    .footer-disclaimer {
+        padding: 1rem;
+    }
+    
+    .ai-disclaimer {
+        font-size: 0.85rem;
+    }
+}
+
+/* Dark mode support */
+[data-theme="dark"] .ai-footer {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+[data-theme="light"] .ai-footer {
+    background-color: #f5f5f5;
+    color: #2a2a2a;
+    border-top-color: #2196F3;
+}
+
+[data-theme="light"] .footer-disclaimer {
+    background-color: rgba(33, 150, 243, 0.08);
+}
+
+[data-theme="light"] .ai-disclaimer {
+    color: #555;
+}
+</style>
