@@ -65,6 +65,7 @@ Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
 Oliver Laudan  
 Annenstr. 76  
+58453 Witten  
 
 E-Mail: oliver.laudan@gmail.com
 
