@@ -11,6 +11,10 @@ enableGitInfo = true
   keywords = ['Future Skills', 'KI', 'Digitalisierung', 'AI Literacy', 'Künstliche Intelligenz', 'ChatGPT', 'Digitale Transformation', 'Prompt Engineering']
   images = ['/images/og-image.png']
   
+  # Theme Settings
+  defaultTheme = 'auto' # auto, light, dark
+  disableThemeToggle = false
+  
   # Comment System
   comments = true
   
