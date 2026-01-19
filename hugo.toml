@@ -11,8 +11,22 @@ enableGitInfo = true
   keywords = ['Future Skills', 'KI', 'Digitalisierung', 'AI Literacy', 'Künstliche Intelligenz', 'ChatGPT', 'Digitale Transformation', 'Prompt Engineering']
   images = ['/images/og-image.png']
   
-  # Favicon
-  [[params.assets]]
+  # Comment System
+  comments = true
+  
+  # Blog Settings
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  
+  # Favicon (PaperMod Theme)
+  [params.assets]
     favicon = '/favicon.svg'
     favicon16x16 = '/favicon.svg'
     favicon32x32 = '/favicon.svg'
@@ -30,20 +44,6 @@ enableGitInfo = true
     github = 'https://github.com/oliverlaudan-ops'
     email = 'mailto:kontakt@future-pulse.tech'
     rss = '/index.xml'
-
-  # Comment System
-  comments = true
-  
-  # Blog Settings
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
-  UseHugoToc = true
-  disableSpecial1stPost = false
   
   # Homepage Settings
   [params.homeInfoParams]
