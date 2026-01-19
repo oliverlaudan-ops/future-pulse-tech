@@ -1,0 +1,22 @@
+{{- if and .Site.Params.comments (ne .Params.comments false) -}}
+<div id="comments">
+  <h3>💬 Kommentare</h3>
+  <!-- HIER DEN GISCUS-CODE VON SCHRITT 2 EINFÜGEN -->
+  <script src="https://giscus.app/client.js"
+        data-repo="oliverlaudan-ops/future-pulse-tech"
+        data-repo-id="R_kgDOQ7ETsA"
+        data-category="Blog-Kommentare"
+        data-category-id="1"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="de"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+{{- end -}}
