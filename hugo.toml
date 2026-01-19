@@ -11,6 +11,13 @@ enableGitInfo = true
   keywords = ['Future Skills', 'KI', 'Digitalisierung', 'AI Literacy', 'Künstliche Intelligenz', 'ChatGPT', 'Digitale Transformation', 'Prompt Engineering']
   images = ['/images/og-image.png']
   
+  # Favicon
+  [[params.assets]]
+    favicon = '/favicon.svg'
+    favicon16x16 = '/favicon.svg'
+    favicon32x32 = '/favicon.svg'
+    apple_touch_icon = '/favicon.svg'
+  
   # SEO Settings
   [params.SEO]
     defaultImage = '/images/og-image.png'
