@@ -1,22 +1,28 @@
 {{- if and .Site.Params.comments (ne .Params.comments false) -}}
-<div id="comments" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border);">
-  <h3 style="margin-bottom: 1.5rem;">💬 Kommentare</h3>
+<!-- Custom Comments Section mit Giscus -->
+<div id="comments" class="comments-section">
+  <h3>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
+    Kommentare
+  </h3>
   
-    <script src="https://giscus.app/client.js"
-          data-repo="oliverlaudan-ops/future-pulse-tech"
-          data-repo-id="R_kgDOQ7ETsA"
-          data-category="Blog Comments"
-          data-category-id="DIC_kwDOQ7ETsM4C1Its"
-          data-mapping="pathname"
-          data-strict="0"
-          data-reactions-enabled="1"
-          data-emit-metadata="0"
-          data-input-position="bottom"
-          data-theme="preferred_color_scheme"
-          data-lang="de"
-          data-loading="lazy"
-          crossorigin="anonymous"
-          async>
+  <script src="https://giscus.app/client.js"
+        data-repo="oliverlaudan-ops/future-pulse-tech"
+        data-repo-id="R_kgDOQ7ETsA"
+        data-category="Blog Comments"
+        data-category-id="DIC_kwDOQ7ETsM4C1Its"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="de"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
   </script>
 </div>
 {{- end -}}

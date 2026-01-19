@@ -1,0 +1,80 @@
+/* ==============================================
+   Custom Giscus Comment Styling
+   Angepasst an PaperMod Theme & Future Pulse Tech
+   ============================================== */
+
+/* Kommentar-Container */
+#comments {
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  border-top: 2px solid var(--border);
+}
+
+/* Überschrift "Kommentare" */
+#comments h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Giscus Frame Styling */
+.giscus,
+.giscus-frame {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+}
+
+/* Dark Mode Anpassungen */
+[data-theme="dark"] #comments h3 {
+  color: var(--theme);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  #comments {
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+  
+  #comments h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Hover-Effekt für Kommentar-Section */
+#comments:hover h3 {
+  color: var(--primary);
+  transition: color 0.3s ease;
+}
+
+/* Abstand zum Content darüber */
+.post-content + #comments {
+  margin-top: 4rem;
+}
+
+/* Loading-State */
+.giscus-frame:not([title]) {
+  min-height: 200px;
+  background: var(--code-bg);
+  border-radius: 12px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Smooth Scroll zu Kommentaren */
+html {
+  scroll-behavior: smooth;
+}
