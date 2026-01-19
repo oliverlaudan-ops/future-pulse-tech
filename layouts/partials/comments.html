@@ -24,5 +24,47 @@
         crossorigin="anonymous"
         async>
   </script>
+  
+  <!-- Giscus Theme Switcher -->
+  <script>
+    // Funktion zum Aktualisieren des Giscus-Themes
+    function updateGiscusTheme() {
+      const theme = document.documentElement.getAttribute('data-theme') || 
+                    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      
+      const giscusTheme = theme === 'dark' ? 'dark' : 'light';
+      
+      // Sende Theme-Update an Giscus iFrame
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (iframe) {
+        iframe.contentWindow.postMessage(
+          { giscus: { setConfig: { theme: giscusTheme } } },
+          'https://giscus.app'
+        );
+      }
+    }
+    
+    // Beobachte Theme-Wechsel (PaperMod nutzt data-theme Attribut)
+    const observer = new MutationObserver(updateGiscusTheme);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme']
+    });
+    
+    // Initial Theme setzen nach Giscus-Load
+    window.addEventListener('load', () => {
+      setTimeout(updateGiscusTheme, 1000); // Warte bis Giscus geladen ist
+    });
+    
+    // Fallback: Beobachte auch theme-toggle Button-Klicks
+    document.addEventListener('DOMContentLoaded', () => {
+      const themeToggle = document.getElementById('theme-toggle');
+      if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+          setTimeout(updateGiscusTheme, 100);
+        });
+      }
+    });
+  </script>
 </div>
 {{- end -}}
