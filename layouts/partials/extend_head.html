@@ -1,0 +1,47 @@
+<!-- Custom Theme Toggle Fix -->
+<script>
+(function() {
+  'use strict';
+  
+  function initThemeToggle() {
+    const themeToggle = document.getElementById('theme-toggle');
+    
+    if (!themeToggle) {
+      setTimeout(initThemeToggle, 100);
+      return;
+    }
+    
+    // Remove existing listeners (prevent duplicates)
+    const newToggle = themeToggle.cloneNode(true);
+    themeToggle.parentNode.replaceChild(newToggle, themeToggle);
+    
+    // Add click event
+    newToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const currentTheme = localStorage.getItem('pref-theme') || 'auto';
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      localStorage.setItem('pref-theme', newTheme);
+      document.documentElement.setAttribute('data-theme', newTheme);
+      
+      if (newTheme === 'dark') {
+        document.body.classList.add('dark');
+      } else {
+        document.body.classList.remove('dark');
+      }
+      
+      console.log('Theme:', newTheme);
+    });
+    
+    console.log('Theme toggle ready');
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initThemeToggle);
+  } else {
+    initThemeToggle();
+  }
+})();
+</script>
