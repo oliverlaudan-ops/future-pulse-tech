@@ -23,6 +23,9 @@ enableGitInfo = true
     github = 'https://github.com/oliverlaudan-ops'
     email = 'mailto:kontakt@future-pulse.tech'
     rss = '/index.xml'
+
+  # Comment System
+  comments = true
   
   # Blog Settings
   ShowReadingTime = true
