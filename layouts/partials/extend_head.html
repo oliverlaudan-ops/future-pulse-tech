@@ -1,47 +1,9 @@
-<!-- Custom Theme Toggle Fix -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X7488X4WB4"></script>
 <script>
-(function() {
-  'use strict';
-  
-  function initThemeToggle() {
-    const themeToggle = document.getElementById('theme-toggle');
-    
-    if (!themeToggle) {
-      setTimeout(initThemeToggle, 100);
-      return;
-    }
-    
-    // Remove existing listeners (prevent duplicates)
-    const newToggle = themeToggle.cloneNode(true);
-    themeToggle.parentNode.replaceChild(newToggle, themeToggle);
-    
-    // Add click event
-    newToggle.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      const currentTheme = localStorage.getItem('pref-theme') || 'auto';
-      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      
-      localStorage.setItem('pref-theme', newTheme);
-      document.documentElement.setAttribute('data-theme', newTheme);
-      
-      if (newTheme === 'dark') {
-        document.body.classList.add('dark');
-      } else {
-        document.body.classList.remove('dark');
-      }
-      
-      console.log('Theme:', newTheme);
-    });
-    
-    console.log('Theme toggle ready');
-  }
-  
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initThemeToggle);
-  } else {
-    initThemeToggle();
-  }
-})();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X7488X4WB4');
 </script>
