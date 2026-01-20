@@ -4,6 +4,7 @@ title = 'Future Pulse Tech - KI-Kompetenz & Future Skills'
 theme = 'PaperMod'
 enableRobotsTXT = true
 enableGitInfo = true
+googleAnalytics = 'G-X7488X4WB4'
 
 [params]
   author = 'Oliver Laudan'
