@@ -43,7 +43,9 @@ Statt dir bei einer Frage nur eine Antwort zu liefern, kann eine agentische KI:
 
 ### Was bedeutet das für dich?
 
-2026 wirst du weniger Zeit mit dem Formulieren präziser Prompts verbringen. Stattdessen gibst du Ziele vor und die KI übernimmt die Umsetzung. Das erfordert allerdings eine neue Form von [KI-Kompetenz im Alltag](https://future-pulse.tech/ki-kompetenz-im-alltag/) – du musst lernen, sinnvolle Ziele zu setzen und Ergebnisse zu validieren.
+2026 wirst du weniger Zeit mit dem Formulieren präziser Prompts verbringen. Stattdessen gibst du Ziele vor und die KI übernimmt die Umsetzung. Das erfordert allerdings eine neue Form von [KI-Kompetenz im Alltag](/blog/ki-kompetenz-im-alltag-2026/) – du musst lernen, sinnvolle Ziele zu setzen und Ergebnisse zu validieren.
+
+Mehr Details zu agentischen Systemen findest du in unserem Artikel über [Agentic AI](/blog/agentic-ai-wenn-ki-eigenstaendig-handelt/).
 
 ---
 
@@ -99,6 +101,8 @@ Moderne Systeme können:
 **Im Kundenservice:**
 - Kunden können Probleme per Video zeigen – die KI erkennt das Problem und gibt visuelle Anleitungen
 
+Wenn du mehr über praktische KI-Tools für Content-Erstellung erfahren möchtest, schau dir unseren Artikel über [die 10 besten KI-Tools für Content Creation](/blog/die-10-besten-ki-tools-content-creation-2026/) an.
+
 ---
 
 ## 🎯 Trend 4: Domain-spezifische Modelle statt Allzweck-KI
@@ -114,7 +118,7 @@ Der Trend geht weg von riesigen Allzweckmodellen hin zu spezialisierten, effizie
 - Bessere Datenschutz-Kontrolle (können lokal laufen)
 
 **Beispiele 2026:**
-- **Medizin:** KI-Modelle speziell für Röntgenbilder oder Laborwerte – lies mehr dazu in unserem Artikel über [KI in der Medizin](https://future-pulse.tech/ki-in-der-medizin/)
+- **Medizin:** KI-Modelle speziell für Röntgenbilder oder Laborwerte
 - **Recht:** Modelle, die ausschließlich Vertragsanalysen durchführen
 - **Finance:** Spezialisierte Systeme für Risikobewertung und Fraud Detection
 
@@ -157,7 +161,7 @@ KI verlässt den Bildschirm. Robotik und autonome Systeme mit KI-Steuerung werde
 
 ### Die Herausforderung
 
-Physische KI bringt neue ethische Fragen mit sich: Wer haftet, wenn ein autonomer Roboter einen Fehler macht? Wie stellen wir Sicherheit sicher? Diese Fragen müssen 2026 geklärt werden – mehr dazu erfährst du in unserem Artikel über [bewusste Steuerung von KI](https://future-pulse.tech/kuenstliche-intelligenz-bewusst-steuern/).
+Physische KI bringt neue ethische Fragen mit sich: Wer haftet, wenn ein autonomer Roboter einen Fehler macht? Wie stellen wir Sicherheit sicher? Diese Fragen müssen 2026 geklärt werden.
 
 ---
 
@@ -176,6 +180,8 @@ Tools wie AutoGPT, Microsoft Copilot Studio oder LangChain ermöglichen bereits 
 - Einfache Workflow-Automatisierungen
 - Multi-Step-Aufgaben ohne manuelles Eingreifen
 - Integration verschiedener Tools
+
+Mehr Infos zu den neuesten ChatGPT-Features findest du in unserem [ChatGPT Features 2026 Guide](/blog/chatgpt-features-2026/).
 
 ### 3. Spezialisiere deine KI-Stack
 
@@ -211,6 +217,7 @@ Die Frage ist nicht mehr "Nutzt du KI?", sondern "Wie strategisch setzt du KI ei
 Teile deine Gedanken in den Kommentaren oder schreib uns auf [LinkedIn](https://linkedin.com/company/future-pulse-tech).
 
 **📌 Weiterführende Artikel:**
-- [KI-Kompetenz im Alltag entwickeln](https://future-pulse.tech/ki-kompetenz-im-alltag/)
-- [Künstliche Intelligenz bewusst steuern](https://future-pulse.tech/kuenstliche-intelligenz-bewusst-steuern/)
-- [KI in der Medizin – Praxisbeispiele](https://future-pulse.tech/ki-in-der-medizin/)
+- [KI-Kompetenz im Alltag 2026](/blog/ki-kompetenz-im-alltag-2026/)
+- [Agentic AI: Wenn KI eigenständig handelt](/blog/agentic-ai-wenn-ki-eigenstaendig-handelt/)
+- [Die 10 besten KI-Tools für Content Creation 2026](/blog/die-10-besten-ki-tools-content-creation-2026/)
+- [ChatGPT Features 2026](/blog/chatgpt-features-2026/)
